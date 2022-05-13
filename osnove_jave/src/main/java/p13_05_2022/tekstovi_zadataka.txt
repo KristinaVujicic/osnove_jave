@@ -20,5 +20,13 @@ Push-ujte na github.
    Commit-ujte promenu kao “Update gitignore file”
    Push-ujte na github.
 
+4.
+Git zadatak
+Azurirajte tekstove zadataka
+Obrisite Git_Zadatak1_updated.java fajl
+Commitujte promenu kao “Delete class”
+Push-ujte promenu
+
+
 
 
