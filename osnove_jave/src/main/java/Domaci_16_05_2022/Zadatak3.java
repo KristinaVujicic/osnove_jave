@@ -31,29 +31,19 @@ public class Zadatak3 {
         System.out.print("Da li ste aktivni (true/false): ");
         boolean aktivan = s.nextBoolean();
 
-        metoda(jmbg, ime, prezime,god, aktivan);
-
+        metoda(jmbg, ime, prezime, god, aktivan);
 
 
     }
-    static void metoda (String jmbg, String ime, String prezime, int god, boolean aktivan) {
 
-        if (aktivan == true) {
-            System.out.println("JMBG: " + jmbg );
-            System.out.println ("Ime: " + ime );
-            System.out.println("Prezime: " + prezime);
-            System.out.println("Godina rodjenja: " + god);
-            System.out.println("Aktivan: " + aktivan);
+    static void metoda(String jmbg, String ime, String prezime, int god, boolean aktivan) {
 
-        } else {
-            System.out.println("JMBG: " + jmbg );
-            System.out.println ("Ime: " + ime );
-            System.out.println("Prezime: " + prezime);
-            System.out.println("Godina rodjenja: " + god);
-            System.out.println("Aktivan: " + aktivan);
-        }
+        System.out.println("JMBG: " + jmbg);
+        System.out.println("Ime: " + ime);
+        System.out.println("Prezime: " + prezime);
+        System.out.println("Godina rodjenja: " + god);
+        System.out.println("Aktivan: " + aktivan);
+
     }
-
-
 
 }
