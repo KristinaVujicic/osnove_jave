@@ -27,7 +27,7 @@ public class Student {
     private String tipStudija;
     private String brojIndexa;
 
-   git
+    ArrayList<Ispit> ispiti = new ArrayList<Ispit>();
 
     public Student () {
 
